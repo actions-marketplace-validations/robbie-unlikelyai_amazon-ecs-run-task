@@ -22,6 +22,15 @@ inputs:
   wait-for-minutes:
     description: 'How long to wait for the task reach stopped state, in minutes (default: 30 minutes, max: 6 hours).'
     required: false
+  subnet:
+    description: 'The subnet to run the task in'
+    required: true
+  security-group:
+    description: 'The security ground to run the task with'
+    required: true
+  assign-public-ip:
+    description: 'ENABLED to assign a public IP, DISABLED to not'
+    required: true
 outputs:
   task-definition-arn:
     description: 'The ARN of the registered ECS task definition'
