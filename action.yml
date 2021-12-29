@@ -1,4 +1,4 @@
-name: 'Amazon ECS Standalone Task deployment for GitHub Actions'
+name: 'Amazon ECS - Run Standalone Task'
 description: 'Runs a standalone Amazon ECS task'
 branding:
   icon: 'cloud'
